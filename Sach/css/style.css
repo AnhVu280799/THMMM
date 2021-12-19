@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    background:black ;
+    width: 1347px;
+    height: 50px;
+    position: fixed;
+    font-size: 20px;
+    
+}
+.container a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    float: left;
+}
+#logo {
+    float: right;
+    margin:7px 90px 7px 0px;
+    
+}
+div.banner {
+    margin: 0px;
+    
+}
+a
+{
+    text-decoration: none;
+}
+div.phan_trang a
+{
+    font-size:36px;
+    margin-left:5px;
+    margin-right:5px;
+    text-decoration: none;
+    color:blue;
+}
+div.phan_trang a:hover
+{
+    color:red;
+}    
+div.menu_ngang a
+{
+    color:white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size:20px;
+}
+div.menu_ngang a:hover
+{
+    color:red;
+    margin: 1px;
+    
+}
+div.menu_doc a:hover
+{
+    color:red;
+}
+div.phan_trang a
+{
+    font-size:36px;
+    margin-left:5px;
+    margin-right:5px;
+    text-decoration: none;
+    color:blue;
+}
+div.phan_trang a:hover
+{
+    color:red
+}
+div.menu_doc {
+    width: 300px;
+    min-height: 400px;
+    float: left;
+}
+div.menu_doc ul {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+div.menu_doc ul li {
+    list-style: none;
+}
+div.menu_doc ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background: url(../hinh_anh/banner/Book-icon1.png) no-repeat 3px;
+    text-indent: 30px;
+    color: #8787b7;
+}
+
+div.menu_doc h3 {
+    background: #878787 url(../hinh_anh/banner/icon.png) no-repeat 5px;
+    height: 38px;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+    text-indent: 30px;
+}
+
+div.menu_ngang ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+div.menu_ngang ul li{
+    background: #009bce;
+    list-style: none;
+    float: left;
+    padding-left:74px ;
+}
+
+div.menu_ngang ul li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px 0px 25.9px ;
+
+}
+div.menu_ngang ul li a.active {
+    background: #1949b5;
+}
+div.footer {
+    background: black;
+    width: 1344px;
+    text-align: center;
+    height: 90px;
+    color: #FFF;
+    float: right;
+    
+    
+}
+
+
+div.abc {
+    background: black;
+    text-align: center;
+    color: white;
+    height: 40px;
+    clear: left;
+    
+
+}
+div.new {
+    text-align: center;
+    display: inline;
+}
+div.moi ul li {
+    display: block;
+    text-decoration: none;
+    line-height: 20px;
+    border: 1px solid black;
+    border-bottom: 1px solid #ccc;
+    text-indent: 30px;
+    color: black;
+
+}
+div.noi_bat ul li {
+    display: block;
+    text-decoration: none;
+    line-height: 20px;
+    
+    border-bottom: 1px solid #ccc;
+    text-indent: 30px;
+    color: black;
+    border: 1px solid black;
+}
+div.giohang {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+div.giohang h4 {
+    background: url(../hinh_anh/banner/Cart-icon.png) no-repeat 50px;
+    width: 210px;
+    height: 50px;
+    padding-top: 10px;
+    text-indent: 10px;
+    line-height: 30px;
+}
